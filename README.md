@@ -24,9 +24,11 @@ Logging and Debugging: The bot logs important actions and errors, allowing you t
 
 3. Set your bot's token as an environment variable (DISCORD_BOT_TOKEN).
 
-4. Update the SOURCE_SERVER_ID, TARGET_SERVER_ID, and the paths for the log and checkpoint files.
+4. Update the SOURCE_SERVER_ID, TARGET_SERVER_ID, the paths for the log and checkpoint and the name of channel_to_copy, inside the main file. 
 
 5. Run the bot script.
+
+6. Make a file called checkpoint.json and another file called bot_log.txt
 
 Use Cases:
 
