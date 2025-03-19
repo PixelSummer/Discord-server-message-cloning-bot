@@ -1,5 +1,5 @@
 # Discord-server-message-cloning-bot
-A Python bot using discord.py to copy messages, media, and links from one Discord server to another. It supports resuming from the last processed message, converts timestamps to UTC+1, handles Tenor links, and manages large file attachments by sending links instead of skipping them.
+A Python bot using discord.py to copy entire discord channel history, this includes messages, media, and links. Used for copying one or more Discord channels from one server another. It supports resuming from the last processed message, converts timestamps to UTC+1, handles Tenor links, and manages large file attachments by sending links instead of skipping them.
 
 This Python-based bot uses the discord.py library to copy messages from one Discord server to another, including handling text messages, media files, and links. It is designed to ensure that all important content from a specific source channel in one server is replicated in a target channel of another server, with support for resuming from the last processed message.
 
@@ -27,9 +27,7 @@ Logging and Debugging: The bot logs important actions and errors, allowing you t
 4. Update the SOURCE_SERVER_ID, TARGET_SERVER_ID, the paths for the log and checkpoint and the name of channel_to_copy, inside the main file. 
 
 5. Run the bot script.
-
-6. Make a file called checkpoint.json and another file called bot_log.txt
-
+6. 
 Use Cases:
 
 Archiving: Archive messages from one server to another for backup or storage purposes.
